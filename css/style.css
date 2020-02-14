@@ -227,7 +227,7 @@ body {
     transition: 0.5s;
 }
 
-.details-menues li a:first-child {
+#toggleClass-education {
     margin-right: 3em;
 }
 
