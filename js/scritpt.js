@@ -21,6 +21,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 
 
+
 // $(document).ready(function () {
 //     $( "#toogleClass-skills" ).click(function() {
 //         $('.items-of-skills').css('display', 'flex');
