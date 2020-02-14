@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    /* background-image: url(../img/bgFirst.jpg); */
+    background-image: url(../img/bgFirst.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ body {
 
 .header-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 50px;
 }
@@ -36,9 +36,9 @@ body {
     text-transform: uppercase;
 }
 
-/* .header-nav a:first-child {
+.header-nav a:first-child {
     margin-right: 3em;
-} */
+}
 
 .header-nav a:hover {
     border-bottom: 3px solid white;
