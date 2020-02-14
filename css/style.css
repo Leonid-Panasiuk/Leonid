@@ -96,6 +96,11 @@ body {
         bottom: 0.5em;
     }
 }
+@media (max-width: 540px) {
+    .my-photo-wrap:before {
+        display: none;
+    }
+}
 
 @keyframes pulsate {
     0% {
