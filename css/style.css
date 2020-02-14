@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    background-image: url(../img/bgFirst.jpg);
+    /* background-image: url(../img/bgFirst.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
