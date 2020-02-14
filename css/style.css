@@ -152,9 +152,14 @@ body {
     align-items: center;
 }
 
+
 .contacts-answer a {
     text-decoration: none;
     color: black;
+}
+
+.contacts-answer {
+    padding-top: 10px;
 }
 
 .social {
