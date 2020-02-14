@@ -23,7 +23,7 @@ body {
 
 .header-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 50px;
 }
@@ -36,10 +36,9 @@ body {
     text-transform: uppercase;
 }
 
-.header-nav a:first-child {
+/* .header-nav a:first-child {
     margin-right: 3em;
-}
-
+} */
 
 .header-nav a:hover {
     border-bottom: 3px solid white;
