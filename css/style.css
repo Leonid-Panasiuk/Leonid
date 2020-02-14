@@ -28,6 +28,13 @@ body {
     padding-top: 50px;
 }
 
+@media (max-width: 568px) {
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .header-nav a {
     text-decoration: none;
     color: white;
@@ -41,7 +48,7 @@ body {
 
 @media (max-width: 400px) {
     .header-nav a:first-child {
-        margin-right: 0em;
+        
     }
 }
 
@@ -321,7 +328,7 @@ body {
 @media (max-width: 400px) {
     .skills-box h3 {
         font-size: 1vh;
-        
+
     }
 }
 
