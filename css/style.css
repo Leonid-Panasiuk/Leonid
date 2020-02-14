@@ -28,12 +28,6 @@ body {
     padding-top: 50px;
 }
 
-@media (max-width: 568px) {
-    .header-nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
 
 .header-nav a {
     text-decoration: none;
@@ -46,11 +40,6 @@ body {
     margin-right: 3em;
 }
 
-@media (max-width: 400px) {
-    .header-nav a:first-child {
-        
-    }
-}
 
 .header-nav a:hover {
     border-bottom: 3px solid white;
