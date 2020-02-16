@@ -12,10 +12,10 @@ body {
 }
 
 #header {
-    background-image: url(../img/bgFirst.jpg);
+    background-image: url(../img/seaBg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     position: relative;
     height: 400px;
     width: 100%;
@@ -209,7 +209,7 @@ body {
 }
 
 #details {
-    background-image: url(../img/bgFirst.jpg);
+    background-image: url(../img/seaBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
