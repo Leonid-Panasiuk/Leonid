@@ -96,6 +96,7 @@ body {
         bottom: 0.5em;
     }
 }
+
 @media (max-width: 540px) {
     .my-photo-wrap:before {
         display: none;
@@ -124,10 +125,41 @@ body {
     background-color: white;
 }
 
-.title-contacts {
-    padding: 6em 0;
-    text-align: center;
+.form-download {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
 }
+
+.download {
+    border: none;
+    outline: none;
+    /* background-color: #2c065e9d; */
+    background-color: #3e34509d;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.6s ease 0s;
+}
+
+.download:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
+
+
+.title-contacts {
+    text-align: center;
+    padding: 6em 0;
+}
+
 
 .title-contacts h1 {
     font-size: 50px;
@@ -179,7 +211,7 @@ body {
     width: 60px;
     height: 60px;
     background: rgba(97, 97, 97, 0.404);
-    transition: 0.7s;
+    transition: 0.5s;
     border-radius: 50%;
 }
 
@@ -336,7 +368,7 @@ body {
 
 footer {
     background-color: #171718;
-    padding: 35px;
+    padding: 25px;
     color: white;
     font-size: 20px;
     text-align: center;
