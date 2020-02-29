@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    background-image: url(../img/seaBg.jpg);
+    background-image: url(../img/Banner_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -209,10 +209,10 @@ body {
 }
 
 #details {
-    background-image: url(../img/seaBg.jpg);
+    background-image: url(../img/Banner_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     padding: 100px 0 50px 0;
 }
 
